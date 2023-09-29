@@ -1,17 +1,17 @@
 image: gitpod/workspace-full
 
 tasks:
-  - name: Install Node.js v10.15.0
-    command: nvm install 10.15.0
+  - name: Install Node.js v16.16.0
+    command: nvm install 16.16.0
 
-  - name: Switch to Node.js v10.15.0
-    command: nvm use 10.15.0
+  - name: Switch to Node.js v16.16.0
+    command: nvm use 16.16.0
 
-  - name: Install NPM v6.6.0
-    command: npm install -g npm@6.6.0
+  - name: Install NPM v8.11.0
+    command: npm install -g npm@8.11.0
 
   - name: Run NPM install
     command: npm install
 
   - name: Start development server
-    command: npm run dev
+    command: npm run serve
